@@ -1,0 +1,433 @@
+* {
+  font-family: "TitilliumWeb";
+}
+/*-------------------------------------
+      Importação da fonte
+  */
+
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("../fonts/TitilliumWeb-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("../fonts/TitilliumWeb-Bold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("../fonts/TitilliumWeb-Light.ttf");
+  font-weight: 300;
+}
+
+/*-----------------------------------------------------------------
+    Estilo base
+*/
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1px) and (max-width: 762px) {
+
+  header.header > nav > div.container {
+  justify-content: space-between;
+}
+  div.Home > div.button {
+    margin: 0 auto;
+  }
+
+  div.Home > div > h1 {
+  font-size: 2.5rem !important;
+}
+
+  div.Home > div.button > a > span {
+    font-size: 0.8em;
+  }
+  div.grupo > div > div > h2 {
+    font-size: 2.5em;
+  }
+
+  div.grupo > div > div > div > img {
+    transform: translate(5%, 10%);
+  }
+
+  div.negocios > div.edit-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+
+}
+
+@media (min-width: 763px) and (max-width: 1023px) {
+  header.header > nav > div.container {
+  justify-content: space-between;
+}
+  div.Home > div.button {
+    margin: 0 auto;
+  }
+
+  div.Home > div.button > a > span {
+    font-size: 0.8em;
+  }
+  div.grupo > div > div > div > img {
+    transform: translate(2%, 10%);
+  }
+
+}
+
+@media (min-width: 1024px) {
+  header.header > nav > div.container {
+  flex-direction: column;
+  columns: 1;
+}
+  div.Home > div.button {
+  }
+
+  div.Home > div.button > a > span {
+    font-size: 1.2em;
+  }
+
+  div.grupo > div > div > div > img {
+    transform: translate(19%, 10%);
+  }
+}
+
+/*-------------------------------------
+      Estilo dos elementos
+  */
+
+
+/*------------------------
+    Header
+*/
+
+header.header {
+}
+.nav-link {
+color: #000 !important; 
+}
+header.header > nav {}
+header.header > nav > div.container > div.col-2 > a > img {
+  object-fit: contain;
+}
+header.header > nav > div.container  {
+  display: flex;
+}
+header.header > nav > div.container > div.col {
+  margin: 0 auto !important;
+}
+
+/*------------------------
+      Home
+  */
+
+div.Home::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+div.Home {
+  background-image: url(../images/Frame1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-color: #2e0b35;
+  height: 840px;
+  max-height: 1080px;
+}
+div.Home > div {
+  margin: 0 auto;
+
+  transform: translate(-50%, 0);
+}
+div.Home > div > h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+div.Home > div > h1 > span {
+  font-weight: 600;
+  color: rgba(91, 161, 161, 1);
+}
+div.Home > div > h4 {
+  color: #fff;
+  text-align: center;
+}
+div.Home > div.button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+div.Home > div.button > a {
+  display: block;
+  border: none;
+  background-color: rgba(91, 161, 161, 1);
+  margin: 0 auto;
+  text-align: center;
+}
+div.Home > div.button > a > span {
+  color: #fff;
+  text-align: center;
+}
+
+/*------------------------
+      Grupo
+  */
+
+div.grupo {
+}
+div.grupo > div {
+  background-color: #555;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.grupo > div > div {
+}
+div.grupo > div > div > h2 {
+  position: relative;
+  font-weight: 600;
+  color: #fff;
+}
+div.grupo > div > div > h2::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 8px !important;
+
+  left: -35px;
+  width: 32px;
+  height: 32px;
+
+  background-image: url(../images/logotipo_emporio_nacional_vetor.png);
+}
+
+div.grupo > div > div > img {
+}
+div.grupo > div > div > div > p {
+  font-size: 1rem;
+  color: #fff;
+}
+div.grupo > div > div > div > img {
+  width: 100%;
+}
+
+
+/*------------------------
+      Negócios
+  */
+
+div.negocios {
+  margin-top: 7em;
+}
+div.negocios > div {
+
+}
+div.negocios > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.negocios > div > div > img {
+}
+div.negocios > div > div > h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+div.negocios > div > div > p {
+  font-size: 1rem;
+  width: 70%;
+}
+
+/*------------------------
+      Antonita
+  */
+
+div.antonita {
+  margin-top: 7em;
+    background-image: url(../images/antonita-fundo.png);
+  background-position: center center;
+  background-size: cover;
+}
+div.antonita > div {
+}
+div.antonita > div:nth-child(2) {
+  background-color: #E9643B;
+}
+div.antonita > div:nth-child(1) {
+  margin-bottom: calc(-17%);
+}
+div.antonita > div > div {
+
+}
+div.antonita > div > div {
+}
+
+div.antonita > div > div.position-relative > div > img{
+  object-fit: contain;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+div.antonita > div > div > div > img{
+  object-fit: contain;
+}
+
+div.antonita > div > div.position-relative {
+}
+
+div.antonita > div > div.position-relative > div {
+  height: 50%;
+}
+
+div.antonita > div:nth-child(2) > div > div {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  columns: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.antonita > div > div > div {
+  
+}
+div.antonita > div > div > div > p {
+  color: #fff;
+  font-size: 1em;
+}
+div.antonita > div > div > div {
+}
+div.antonita > div > div > div > a > img{
+}
+div.antonita > div > div > div > img{
+}
+
+/*------------------------
+      Saia de Chita
+  */
+
+div.saia-chita {
+  margin-top: 7em;
+  background-image: url(../images/saia-chita-fundo.png);
+  background-position: center center;
+  background-size: cover;
+}
+div.saia-chita > div {
+
+}
+div.saia-chita > div:nth-child(2) {
+  background-color: #B7D8DD;
+}
+div.saia-chita > div:nth-child(1) {
+  margin-bottom: calc(-13%);
+}
+div.saia-chita > div > div {
+
+}
+div.saia-chita > div > div {
+}
+
+div.saia-chita > div > div.position-relative > div > img{
+  object-fit: contain;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+div.saia-chita > div > div > div > img{
+  object-fit: contain;
+}
+
+div.saia-chita > div > div.position-relative {
+}
+
+div.saia-chita > div > div.position-relative > div {
+  height: 50%;
+}
+
+div.saia-chita > div:nth-child(2) > div > div {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  columns: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.saia-chita > div > div > div {
+}
+
+div.saia-chita > div > div > div > p {
+  color: #555;
+  font-size: 1em;
+}
+div.saia-chita > div > div > div {
+}
+div.saia-chita > div > div >  a > img{
+}
+div.saia-chita > div > div > div > img{
+}
+
+
+/*------------------------
+      Mapa responsivo
+*/
+
+div.mapa-responsivo{
+}
+
+
+/*------------------------
+      Contato
+*/
+
+div.contato {
+  background-color: #555;
+}
+div.contato > div {}
+div.contato > div > div {}
+div.contato > div > div > ul {}
+div.contato > div > div > ul > li {
+  color: #fff;
+}
+div.contato > div > div > form {}
+div.contato > div > div > form > div {}
+div.contato > div > div > form > div > input {
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+div.contato > div > div > form > div > input:active {
+  border: none;
+  box-shadow: none;
+}
+div.contato > div > div > form > div > label {
+  color: #fff;
+}
+div.contato > div > div > form > button {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+/*------------------------
+      Rodapé
+  */
+
+footer {
+  background-color: #fff;
+}
+footer > img {
+  width: 120px;
+  margin: 0 auto;
+}
