@@ -1,28 +1,28 @@
 * {
-  font-family: "TitilliumWeb";
+  font-family: "Montserrat";
 }
 /*-------------------------------------
       Importação da fonte
   */
 
 @font-face {
-  font-family: "TitilliumWeb";
-  src: url("../fonts/TitilliumWeb-Regular.ttf");
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
 }
 @font-face {
-  font-family: "TitilliumWeb";
-  src: url("../fonts/TitilliumWeb-Regular.ttf");
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: "TitilliumWeb";
-  src: url("../fonts/TitilliumWeb-Bold.ttf");
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf");
   font-weight: 600;
 }
 @font-face {
-  font-family: "TitilliumWeb";
-  src: url("../fonts/TitilliumWeb-Light.ttf");
-  font-weight: 300;
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBoldItalic.ttf");
+  font-weight: 700;
 }
 
 /*-----------------------------------------------------------------
@@ -38,6 +38,9 @@
 
   header.header > nav > div.container {
   justify-content: space-between;
+}
+header.header > nav > div.container > div.col > ul > li > a {
+  font-size: 1.2em;
 }
   div.Home > div.button {
     margin: 0 auto;
@@ -68,6 +71,9 @@
   header.header > nav > div.container {
   justify-content: space-between;
 }
+header.header > nav > div.container > div.col > ul > li > a {
+  font-size: 1.2em;
+}
   div.Home > div.button {
     margin: 0 auto;
   }
@@ -85,6 +91,9 @@
   header.header > nav > div.container {
   flex-direction: column;
   columns: 1;
+}
+header.header > nav > div.container > div.col > ul > li > a {
+  font-size: 1.4em;
 }
   div.Home > div.button {
   }
@@ -123,6 +132,7 @@ header.header > nav > div.container > div.col {
   margin: 0 auto !important;
 }
 
+
 /*------------------------
       Home
   */
@@ -131,7 +141,7 @@ div.Home::after {
   background-color: rgba(0, 0, 0, 0.3);
 }
 div.Home {
-  background-image: url(../images/Frame1.png);
+  background-image: url(../images/frame-2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,17 +173,6 @@ div.Home > div > h4 {
 div.Home > div.button {
   display: block;
   margin: 0 auto;
-  text-align: center;
-}
-div.Home > div.button > a {
-  display: block;
-  border: none;
-  background-color: rgba(91, 161, 161, 1);
-  margin: 0 auto;
-  text-align: center;
-}
-div.Home > div.button > a > span {
-  color: #fff;
   text-align: center;
 }
 
