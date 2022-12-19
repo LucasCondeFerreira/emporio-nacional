@@ -97,7 +97,7 @@ header.header > nav > div.container > div.col > ul > li > a {
   columns: 1;
 }
 header.header > nav > div.container > div.col > ul > li > a {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 div.Home {
   background-image: url(../images/frame-2.jpg);
@@ -130,7 +130,7 @@ header.header {
 color: #000 !important; 
 }
 header.header > nav {}
-header.header > nav > div.container > div.col-2 > a > img {
+header.header > nav > div.container > div > div > a > img {
   object-fit: contain;
 }
 header.header > nav > div.container  {
@@ -200,18 +200,6 @@ div.grupo > div > div > h2 {
   font-weight: 600;
   color: #fff;
 }
-div.grupo > div > div > h2::before {
-  content: "";
-  position: absolute;
-  z-index: 5;
-  top: 8px !important;
-
-  left: -35px;
-  width: 32px;
-  height: 32px;
-
-  background-image: url(../images/logotipo_emporio_nacional_vetor.png);
-}
 
 div.grupo > div > div > img {
 }
@@ -243,7 +231,7 @@ div.negocios > div > div {
 div.negocios > div > div > img {
 }
 div.negocios > div > div > h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 3rem;
   text-align: center;
 }
@@ -301,7 +289,6 @@ div.antonita > div:nth-child(2) > div > div {
   flex-direction: column;
   columns: 1;
   justify-content: flex-end;
-  align-items: center;
 }
 div.antonita > div > div > div {
   
@@ -313,6 +300,17 @@ div.antonita > div > div > div > p {
 div.antonita > div > div > div {
 }
 div.antonita > div > div > div > a > img{
+  width: 32px;
+  height: 32px;
+}
+div.antonita > div > div > div > a {
+  text-decoration: none;
+  gap: 10px;
+  align-items: center;
+}
+div.antonita > div > div > div > a > span{
+  font-weight: 600;
+  color: #fff;
 }
 div.antonita > div > div > div > img{
 }
@@ -366,7 +364,6 @@ div.saia-chita > div:nth-child(2) > div > div {
   flex-direction: column;
   columns: 1;
   justify-content: flex-end;
-  align-items: center;
 }
 div.saia-chita > div > div > div {
 }
@@ -375,9 +372,18 @@ div.saia-chita > div > div > div > p {
   color: #555;
   font-size: 1em;
 }
-div.saia-chita > div > div > div {
+div.saia-chita > div > div > div > a > img{
+  width: 32px;
+  height: 32px;
 }
-div.saia-chita > div > div >  a > img{
+div.saia-chita > div > div > div > a {
+  text-decoration: none;
+  gap: 10px;
+  align-items: center;
+}
+div.saia-chita > div > div > div > a > span{
+  font-weight: 600;
+  color: #555;
 }
 div.saia-chita > div > div > div > img{
 }
