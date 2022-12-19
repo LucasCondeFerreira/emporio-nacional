@@ -42,6 +42,10 @@
 header.header > nav > div.container > div.col > ul > li > a {
   font-size: 1.2em;
 }
+div.Home {
+  background-image: url(../images/frame-2-mobile.jpg);
+  background-position: center center;
+}
   div.Home > div.button {
     margin: 0 auto;
   }
@@ -95,6 +99,10 @@ header.header > nav > div.container > div.col > ul > li > a {
 header.header > nav > div.container > div.col > ul > li > a {
   font-size: 1.4em;
 }
+div.Home {
+  background-image: url(../images/frame-2.jpg);
+  background-position: center center;
+}
   div.Home > div.button {
   }
 
@@ -141,8 +149,6 @@ div.Home::after {
   background-color: rgba(0, 0, 0, 0.3);
 }
 div.Home {
-  background-image: url(../images/frame-2.jpg);
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
