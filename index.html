@@ -84,46 +84,58 @@
             </button>
           </div>
           <div class="col d-flex d-md-none justify-content-center">
-            <div class="col-6 me-5 ms-2">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="./assets/images/logotipo_emporio_nacional_header.png"
-                  alt=""
-                  class="img-fluid"
-                  height="36"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="d-none col-5 d-md-flex justify-content-center">
-            <div class="ms-md-0 me-md-0 col-md-10">
+            <div class="col-8 me-5 ms-2">
               <a class="navbar-brand" href="#">
                 <img
                   src="./assets/images/Logotipo_EmpórioNacional_SemFundo-07.png"
                   alt=""
                   class="img-fluid"
-                  height="36"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="d-none col-3 d-md-flex justify-content-center">
+            <div class="ms-md-0 me-md-0 col-md-9">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./assets/images/logotipo_emporio_nacional_header.png"
+                  alt=""
+                  class="img-fluid"
                 />
               </a>
             </div>
           </div>
           <div class="col collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav my-4 my-md-2">
+            <ul class="navbar-nav my-4 my-md-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+                <a
+                  class="nav-link ps-1 ps-md-0"
+                  aria-current="page"
+                  href="#sobre"
+                  >Sobre</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#negocios"
+                <a
+                  class="nav-link ps-1 ps-md-0"
+                  aria-current="page"
+                  href="#negocios"
                   >Negócios</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#localizacao"
+                <a
+                  class="nav-link ps-1 ps-md-0"
+                  aria-current="page"
+                  href="#localizacao"
                   >Localização</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#contato"
+                <a
+                  class="nav-link ps-1 ps-md-0"
+                  aria-current="page"
+                  href="#contato"
                   >Contato</a
                 >
               </li>
@@ -146,10 +158,10 @@
     <div class="grupo col-lg-12 mb-5 ps-4 pe-4" id="sobre">
       <div class="col-lg-12 d-flex mt-5 pt-5">
         <div class="col-lg-3 pt-5 ps-5 mt-4">
-          <h2 class="mb-5 pb-5 d-block h1">Sobre o grupo</h2>
+          <h2 class="mb-5 pb-5 d-block h2">Sobre o grupo</h2>
         </div>
         <div class="col-lg-3 ms-2 mt-5">
-          <img src="./assets/images/Prancheta8.png" class="img-fluid" alt="#" />
+          <img src="./assets/images/Prancheta8.jpg" class="img-fluid" alt="#" />
         </div>
         <div class="col-lg-5 mt-5">
           <div class="col-12 ms-md-4 pe-1 px-2 pt-3">
@@ -191,7 +203,7 @@
       <div class="col-lg-12 d-flex edit-column-reverse mt-5 pt-5">
         <div class="col-md-5">
           <img
-            src="./assets/images/image-negocios.png"
+            src="./assets/images/image-negocios.jpg"
             alt=""
             class="img-fluid"
           />
@@ -250,10 +262,10 @@
             </p>
             <a
               href="https://www.instagram.com/antonita.kids/"
-              class="d-flex col-10 link"
+              class="d-inline-block col-10 link"
             >
               <img src="./assets/images/icone-insta.png" class="" alt="" />
-              <span>antonita.kids</span>
+              antonita.kids
             </a>
           </div>
         </div>
@@ -297,13 +309,15 @@
               personalidade.<br /><br />
               Com o mote “Sinta-se Brilhar”, a marca traz consigo elementos
               estampados e coloridos, em uma modelagem única.
+              <br /><br />Loja: Av. Governador Santos Neves, 1102, Centro,
+              Linhares/ES - 29900-032
             </p>
             <a
-              href="https://www.instagram.com/saiadechita.linhares/"
-              class="d-flex col-10"
+              href="https://www.instagram.com/saiadechita/"
+              class="d-inline-block col-10"
             >
               <img src="./assets/images/icone-insta.svg" class="" alt="" />
-              <span>saiadechita.linhares</span>
+              saiadechita
             </a>
           </div>
         </div>
@@ -321,9 +335,9 @@
           style="border: none"
           class="mb-2"
         ></iframe>
-        <h4 class="h4 mt-2 text-center">
-          Av. Santos Dumont, 456, Araça, Linhares/ES
-          <br />CEP 29901-445
+        <h4 class="h5 mt-2 ps-2 ps-md-1 text-left">
+          <b>Nossa sede:</b> Av. Santos Dumont, 456, Araça, Linhares/ES - CEP
+          29901-445
         </h4>
       </div>
     </div>
@@ -344,7 +358,7 @@
         </div>
         <div class="col-md-3"></div>
         <div class="col-md-4">
-          <form class="my-4" method="post" action="enviarEmail.php">
+          <form class="my-4" action="enviarEmail.php" method="post">
             <div class="mb-3 form-floating">
               <input
                 type="name"

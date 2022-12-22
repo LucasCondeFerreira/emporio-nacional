@@ -21,7 +21,7 @@
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-ExtraBoldItalic.ttf");
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
   font-weight: 700;
 }
 
@@ -38,9 +38,10 @@
 
   header.header > nav > div.container {
   justify-content: space-between;
-}
-header.header > nav > div.container > div.col > ul > li > a {
-  font-size: 1.2em;
+  }
+
+header.header > nav > div.container > div > div > li > a {
+  font-size: 1em;
 }
 div.Home {
   background-image: url(../images/frame-2-mobile.jpg);
@@ -54,9 +55,7 @@ div.Home {
   font-size: 2.5rem !important;
 }
 
-  div.Home > div.button > a > span {
-    font-size: 0.8em;
-  }
+
   div.grupo > div > div > h2 {
     font-size: 2.5em;
   }
@@ -76,15 +75,17 @@ div.Home {
   justify-content: space-between;
 }
 header.header > nav > div.container > div.col > ul > li > a {
-  font-size: 1.2em;
+  font-size: 1em;
+}
+div.Home {
+  background-image: url(../images/frame-2.jpg);
+  background-position: center center;
 }
   div.Home > div.button {
     margin: 0 auto;
   }
 
-  div.Home > div.button > a > span {
-    font-size: 0.8em;
-  }
+
   div.grupo > div > div > div > img {
     transform: translate(2%, 10%);
   }
@@ -96,9 +97,9 @@ header.header > nav > div.container > div.col > ul > li > a {
   flex-direction: column;
   columns: 1;
 }
-header.header > nav > div.container > div.col > ul > li > a {
-  font-size: 1.2em;
-}
+  header.header > nav > div.container > div.col > ul > li > a {
+    font-size: 1em;
+  }
 div.Home {
   background-image: url(../images/frame-2.jpg);
   background-position: center center;
@@ -202,6 +203,7 @@ div.grupo > div > div > h2 {
 }
 
 div.grupo > div > div > img {
+  filter: grayscale(100%);
 }
 div.grupo > div > div > div > p {
   font-size: 1rem;
@@ -209,6 +211,7 @@ div.grupo > div > div > div > p {
 }
 div.grupo > div > div > div > img {
   width: 100%;
+  filter: grayscale(100%);
 }
 
 
@@ -308,7 +311,7 @@ div.antonita > div > div > div > a {
   gap: 10px;
   align-items: center;
 }
-div.antonita > div > div > div > a > span{
+div.antonita > div > div > div > a{
   font-weight: 600;
   color: #fff;
 }
@@ -373,15 +376,15 @@ div.saia-chita > div > div > div > p {
   font-size: 1em;
 }
 div.saia-chita > div > div > div > a > img{
-  width: 32px;
-  height: 32px;
+  width: 32px !important;
+  height: 32px !important;
 }
 div.saia-chita > div > div > div > a {
   text-decoration: none;
   gap: 10px;
   align-items: center;
 }
-div.saia-chita > div > div > div > a > span{
+div.saia-chita > div > div > div > a{
   font-weight: 600;
   color: #555;
 }
