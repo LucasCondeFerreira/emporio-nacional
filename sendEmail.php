@@ -14,6 +14,7 @@ $mail = new PHPMailer(true);
 $nome = $_POST['nameInput'];
 $email = $_POST['emailInput'];
 $telefone = $_POST['numberInput'];
+$texto = $_POST['floatingTextarea'];
 $data_envio = date('d/m/Y');
 $hora_envio = date('H:i:s');
 
@@ -48,6 +49,9 @@ $hora_envio = date('H:i:s');
                                 </tr>
                                 <tr>
                                     <td width='320'>Telefone:<b>$telefone</b></td>
+                                </tr>
+                                <tr>
+                                    <td width='320'>Telefone:<b>$texto</b></td>
                                 </tr>
                                 </td>
                             </tr>

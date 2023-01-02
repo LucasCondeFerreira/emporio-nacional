@@ -153,7 +153,7 @@ div.Home {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  background-color: #2e0b35;
+  background-color: #fcfcfc;
   height: 840px;
   max-height: 1080px;
 }
@@ -422,7 +422,18 @@ div.contato > div > div > form > div > input {
   border: none;
   border-bottom: 2px solid #fff;
 }
+div.contato > div > div > form > div > textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
 div.contato > div > div > form > div > input:active {
+  border: none;
+  box-shadow: none;
+}
+div.contato > div > div > form > div > textarea:active {
   border: none;
   box-shadow: none;
 }
